@@ -7,14 +7,18 @@
 		<title>Laravel</title>
 
 		<link href="{{ asset('/css/app.css') }}" rel="stylesheet">
+		<script src="https://apis.google.com/js/platform.js" ></script>
 	</head>
-	<body class="antialiased">
+	<body class="antialiased text-gray-800 dark:text-gray-200">
+		<div class="min-h-screen bg-gray-100 dark:bg-gray-900 pt-24">
 
-		<x-layout.navbar></x-layout.navbar>
+			<x-layout.navbar></x-layout.navbar>
 
-		{{ $slot }}
+			{{ $slot }}
 
-		<footer>Footer</footer>
+			<x-layout.footer></x-layout.footer>
+
+		</div>
 		<script src="{{ asset('js/app.js') }}"></script>
 	</body>
 </html>
