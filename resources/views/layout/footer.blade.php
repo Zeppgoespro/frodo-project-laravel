@@ -1,4 +1,4 @@
-<!-- ====== Footer section starts -->
+<!-- ====== Footer section start -->
 
 <footer class="bg-gray-200 dark:bg-slate-800 py-8 relative z-10">
 
@@ -69,4 +69,4 @@
 
 </footer>
 
-<!-- ====== Footer section ends -->
+<!-- ====== Footer section end -->
