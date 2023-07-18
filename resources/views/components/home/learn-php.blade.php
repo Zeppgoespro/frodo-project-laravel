@@ -8,10 +8,20 @@
 			PHP for FREE
 		</h2>
 	</x-slot>
-	<x-button-link href="https://roadmap.sh/backend" variant="dark" class="mr-3" target="_blank">
+	<x-button-link
+		href="https://roadmap.sh/backend"
+		variant="dark"
+		class="mr-3 w-full mb-3 text-center lg:w-auto"
+		target="_blank"
+	>
 		Vital info!
 	</x-button-link>
-	<x-button-link href="https://www.spdeep.com/" variant="red" target="_blank">
+	<x-button-link
+		href="https://www.spdeep.com/"
+		variant="red"
+		target="_blank"
+		class="mr-3 w-full mb-3 text-center lg:w-auto"
+	>
 		Good music!
 	</x-button-link>
 </x-call-to-action>

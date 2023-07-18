@@ -4,7 +4,9 @@ declare(strict_types=1);
 
 namespace App\Http\Controllers;
 
+use App\Mail\ContactMail;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
 {
@@ -17,6 +19,9 @@ class ContactController extends Controller
         ]);
 
         # Send email
+
+        Mail::to('zeppgoesblack@gmail.com')
+            ->send(new ContactMail($validated['name'], $validated['email'], $validated['message']));
 
         return ['success' => true];
     }
