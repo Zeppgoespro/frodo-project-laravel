@@ -9,7 +9,6 @@
 		<meta name="csrf-token" content="{{ csrf_token() }}">
 
 		<link href="{{ asset('/css/app.css') }}" rel="stylesheet">
-		<script src="https://apis.google.com/js/platform.js"></script>
 	</head>
 	<body class="antialiased text-gray-800 dark:text-gray-200">
 		<div class="min-h-screen bg-gray-100 dark:bg-gray-900 pt-24">

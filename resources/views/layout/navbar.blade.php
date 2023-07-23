@@ -1,16 +1,15 @@
 <!-- ====== Navbar section start -->
-
 <header
   x-data="{navbarOpen: false}"
   class="fixed left-0 top-0 z-50 bg-white w-full flex items-center shadow-md dark:bg-slate-900 h-24"
 >
   <div class="container">
-    <div class="flex -mx-4 items-center justify-beyween relative">
-      <div class="pr-4 w-60 max-w-full">
+    <div class="flex -mx-4 items-center justify-between relative">
+      <div class="pr-4 w-80 max-w-full">
         <a href="/" class="w-full flex items-center py-2">
-          <img src="{{ url('/img/logo.jpg') }}" alt="Logo" class="w-[48px] lg:w-[64px] inline-block dark:hidden">
-          <img src="{{ url('/img/logo-white.jpg') }}" alt="Logo" class="w-[48px] lg:w-[64px] hidden dark:inline-block">
-          <span class="px-2 text-xl xl:text-2xl font-bold text-[#0c7187] dark:text-white">Workshop</span>
+          <img src="{{ url('/img/gear-logo-light.png') }}" alt="Logo" class="w-[48px] lg:w-[64px] inline-block dark:hidden">
+          <img src="{{ url('/img/gear-logo-dark.png') }}" alt="Logo" class="w-[48px] lg:w-[64px] hidden dark:inline-block">
+          <span class="px-2 text-lg xl:text-xl font-bold text-[#0c7187] dark:text-[#E5E7EB]">Zepp's Workshop</span>
         </a>
       </div>
       <div class="flex px-4 justify-end items-center w-full">
@@ -26,10 +25,6 @@
               @foreach($navigationItems as $item)
                 <x-layout.navbar-item :href="$item['href']">{{ $item['label'] }}</x-layout.navbar-item>
               @endforeach
-
-              <div class="ml-0 lg:ml-10 xl:ml-16 relative top-1">
-                <div class="g-ytsubscribe" data-channelid="UCZeHaXFY46c3ereArr6xTnA" data-layout="default" data-count="default"></div>
-              </div>
             </ul>
           </nav>
         </div>
