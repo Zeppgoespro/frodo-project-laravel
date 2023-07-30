@@ -771,6 +771,9 @@ input#checkboxLabelFive:checked ~ .box {
 .mb-4 {
     margin-bottom: 1rem
 }
+.mb-5 {
+    margin-bottom: 1.25rem
+}
 .mb-6 {
     margin-bottom: 1.5rem
 }
@@ -978,6 +981,9 @@ input#checkboxLabelFive:checked ~ .box {
 .grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr))
 }
+.flex-col {
+    flex-direction: column
+}
 .flex-wrap {
     flex-wrap: wrap
 }
@@ -1003,6 +1009,9 @@ input#checkboxLabelFive:checked ~ .box {
 }
 .overflow-hidden {
     overflow: hidden
+}
+.overflow-y-auto {
+    overflow-y: auto
 }
 .rounded {
     border-radius: 0.25rem
@@ -1273,9 +1282,6 @@ input#checkboxLabelFive:checked ~ .box {
 .text-xl {
     font-size: 1.5rem
 }
-.text-xs {
-    font-size: .875rem
-}
 .font-bold {
     font-weight: 700
 }
@@ -1314,10 +1320,6 @@ input#checkboxLabelFive:checked ~ .box {
 }
 .tracking-wider {
     letter-spacing: 0.05em
-}
-.text-\[\#0c7187\] {
-    --tw-text-opacity: 1;
-    color: rgb(12 113 135 / var(--tw-text-opacity))
 }
 .text-amber-500 {
     --tw-text-opacity: 1;

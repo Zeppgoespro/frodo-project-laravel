@@ -13,7 +13,7 @@
           <p class="text-base mb-8 max-w-[600px]">
             <div class="mb-3">Тот самый толковый джуниор с прямыми руками, ясным умом и румяными щёчками, который обязательно нужен вашей команде для эффективной работы.</div>
             <div class="mb-3">Я очень хочу расти и развиваться, обучаясь мастерству на практике и перенимая полезный опыт у по-настоящему крутых разработчиков, чтобы самому стать крутым разработчиком, способным делать прекрасные вещи.</div>
-            <div class="mb-8">Больше информации обо мне ниже по сайту. А ещё, мой друг, ты можешь найти меня во <a
+            <div class="mb-8">Больше информации обо мне - ниже по сайту. А ещё, мой друг, ты можешь найти меня во <a
               href="https://vk.com/dimaboronox"
               class="text-subprimary font-bold no-underline hover:underline underline-offset-2 decoration-2 decoration-subprimary"
               target="_blank"
@@ -28,7 +28,7 @@
           </ul>
           <div class="clients pt-16">
             <h6 class="font-normal text-sm flex items-center text-body-color dark:text-gray-300 mb-4">
-              Follow me on social media
+              Follow me на разных площадках
               <span class="w-8 h-[1px] bg-body-color inline-block ml-2"></span>
             </h6>
             <x-social-icons></x-social-icons>
@@ -41,7 +41,7 @@
           <div class="relative inline-block z-10 pt-11 lg:pt-0">
             <img
               src="{{ url('/img/me-hero.png') }}"
-              alt="Me"
+              alt="Big picture of me"
               class="max-w-full rounded-2xl lg:mx-auto"
             />
             <span class="absolute -left-8 -bottom-8 z-[-1]">

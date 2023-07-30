@@ -23,40 +23,40 @@ class Portfolio extends Component
     {
         $this->items = [
             [
-                'category'  => ['Biba', 'Buba', 'Baba'],
+                'category'  => ['Vanilla PHP', 'Frontend', 'MySQL'],
                 'title'     => 'Full Stack bookstore Bookex',
                 'image'     => url('/img/bookex.jpg'),
                 'github'    => 'https://github.com/Zeppgoespro/bookshop-bookex-pet-project'
             ],
             [
-                'category'  => ['Biba', 'Buba', 'Baba'],
+                'category'  => ['Vanilla PHP', 'Frontend', 'MySQL'],
                 'title'     => 'Full Stack estate agency Hearthfire',
                 'image'     => url('/img/palace.jpg'),
                 'github'    => 'https://github.com/Zeppgoespro/estate-agency-hearthfire-pet-project'
             ],
             [
-                'category'  => ['Biba', 'Buba', 'Baba'],
-                'title'     => 'PHP Testing sample',
+                'category'  => ['Vanilla PHP', 'PHPUnit', 'OOP'],
+                'title'     => 'PHP testing sample',
                 'image'     => url('/img/palace.jpg'),
                 'github'    => 'https://github.com/Zeppgoespro/pwgio-php-exercise-phpunit'
             ],
             [
-                'category'  => ['Biba', 'Buba', 'Baba'],
-                'title'     => 'PHP Testing sample',
+                'category'  => ['Vanilla PHP', 'MySQL', 'Course'],
+                'title'     => 'freeCodeCamp HTML CSS JS PHP MySQL course exercise',
                 'image'     => url('/img/palace.jpg'),
-                'github'    => 'https://github.com/Zeppgoespro/pwgio-php-exercise-phpunit'
+                'github'    => 'https://github.com/Zeppgoespro/freecodecamp-web-applications-course'
             ],
             [
-                'category'  => ['Biba', 'Buba', 'Baba'],
-                'title'     => 'PHP Testing sample',
+                'category'  => ['Vanilla PHP', 'OOP', 'Course'],
+                'title'     => 'Full PHP backend course with almost everything needed to learn',
                 'image'     => url('/img/palace.jpg'),
-                'github'    => 'https://github.com/Zeppgoespro/pwgio-php-exercise-phpunit'
+                'github'    => 'https://github.com/Zeppgoespro/pwgio-php-education'
             ],
             [
-                'category'  => ['Mamba', 'Jamba'],
-                'title'     => 'PHP Testing sample',
+                'category'  => ['Laravel', 'AlpineJS', 'OOP'],
+                'title'     => '$this->website',
                 'image'     => url('/img/palace.jpg'),
-                'github'    => 'https://github.com/Zeppgoespro/pwgio-php-exercise-phpunit'
+                'github'    => 'https://github.com/Zeppgoespro/frodo-project-laravel'
             ]
         ];
 

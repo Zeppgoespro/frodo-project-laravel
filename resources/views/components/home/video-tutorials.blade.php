@@ -1,14 +1,21 @@
 <!-- Cards section start -->
-	<section id="tutorials" class="dark:bg-slate-800 pt-24 pb-16">
+	<section id="education" class="dark:bg-slate-800 pt-24 pb-16">
 		<div class="container">
 			<div class="flex flex-wrap -mx-4">
 				<div class="w-full px-4">
 					<div class="text-center mx-auto	mb-[60px] max-w-[510px]">
 						<h2 class="font-bold text-3xl text-dark dark:text-gray-300 mb-4">
-							Video Tutorials
+							Где я учился?
 						</h2>
+						<p class="text-base text-body-color mb-4">
+							<a
+								href=""
+								class="text-subprimary font-bold no-underline hover:underline underline-offset-2 decoration-2 decoration-subprimary"
+							>Здесь подробнее!</a>
+						</p>
 						<p class="text-base text-body-color">
-							You learn biba-bubing is strong with the force!
+							Youtube, много youtube... Program With Gio, freeCodeCamp, Mozilla Developer Network etc. <br/>
+							Вот некоторые образцы моих источников.
 						</p>
 					</div>
 				</div>
@@ -29,7 +36,7 @@
 					target="_blank"
 					class="rounded-lg"
 				>
-					View good learning things!
+					Подробнее о том, как я учился...
 				</x-button-link>
 			</div>
 		</div>

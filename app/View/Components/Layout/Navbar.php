@@ -18,10 +18,10 @@ class Navbar extends Component
     public function __construct()
     {
         $this->navigationItems = [
-            ['label' => 'About',            'href' => '#about'],
-            ['label' => 'Projects',         'href' => '#portfolio'],
-            ['label' => 'Coding Tutorials', 'href' => '#tutorials'],
-            ['label' => 'Contact',          'href' => '#contact']
+            ['label' => 'Про меня',     'href' => '#about'],
+            ['label' => 'Мои проекты',  'href' => '#portfolio'],
+            ['label' => 'Где учился',   'href' => '#education'],
+            ['label' => 'Связь',        'href' => '#contact']
         ];
     }
 

@@ -1,5 +1,4 @@
 <!-- ====== Portfolio section start -->
-
 <section
 	id="portfolio"
 	x-data="
@@ -16,10 +15,10 @@
 			<div class="w-full px-4">
 				<div class="text-center mx-auto mb-[60px] max-w-[510px]">
 					<h2 class="font-bold text-3xl sm:text-4xl md:text-[40px] text-dark dark:text-gray-300 mb-4">
-						My recent Projects
+						Мои проекты
 					</h2>
 					<p class="text-base text-body-color">
-						You learn most by building projects. So go ahead and start to doing it!
+						Пожалуйста, посмотри проекты, которые я сделал!
 					</p>
 				</div>
 			</div>
@@ -62,5 +61,4 @@
 		</div>
 	</div>
 </section>
-
 <!-- ====== Portfolio section end -->

@@ -9,7 +9,7 @@
         <a href="/" class="w-full flex items-center py-2">
           <img src="{{ url('/img/gear-logo-light.png') }}" alt="Logo" class="w-[48px] lg:w-[64px] inline-block dark:hidden">
           <img src="{{ url('/img/gear-logo-dark.png') }}" alt="Logo" class="w-[48px] lg:w-[64px] hidden dark:inline-block">
-          <span class="px-2 text-lg xl:text-xl font-bold text-[#0c7187] dark:text-[#E5E7EB]">Zepp's Workshop</span>
+          <span class="px-2 text-lg xl:text-xl font-bold text-subprimary dark:text-[#E5E7EB]">Zepp's Workshop</span>
         </a>
       </div>
       <div class="flex px-4 justify-end items-center w-full">
