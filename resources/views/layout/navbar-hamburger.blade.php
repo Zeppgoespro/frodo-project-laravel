@@ -1,6 +1,6 @@
 <button
 	{{
-		$attributes->merge(['id' => 'navbarToggler', 'class' => 'block absolute right-4 px-3 py-[6px] rounded-lg top-1/2 -translate-y-1/2 ring-primary focus:ring-2 lg:hidden'])
+		$attributes->merge(['id' => 'navbarToggler', 'class' => 'block absolute right-4 px-3 py-[6px] rounded-lg top-1/2 -translate-y-1/2 border border-body-color ring-primary focus:ring-2 lg:hidden'])
 	}}
 >
 

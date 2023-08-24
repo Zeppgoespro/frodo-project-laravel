@@ -1,43 +1,43 @@
 <!-- ====== Hero section start -->
 <div class="relative pt-[60px] lg:pt-[80px] pb-[110px] bg-white dark:bg-slate-800">
   <div class="container">
-    <div class="flex flex-wrap justify-between -mx-4">
-      <div class="w-full lg:w-6/12 px-4">
+    <div class="flex flex-wrap justify-around -mx-4">
+      <div class="w-full px-4 lg:w-7/12 lg:ml-4">
         <div class="hero-content">
           <h1
-            class="text-dark dark:text-gray-200 font-bold text-4xl sm:text-[36px] lg:text-[34px] xl:text-[36px] leading-snug mb-8"
+            class="text-dark dark:text-gray-200 font-bold text-2xl xl:text-3xl leading-snug mb-8"
           >
             Привет! Меня зовут <span class="rounded-md text-amber-600">Дима</span>. <br/>
             Я - начинающий <span class="rounded-md text-amber-600">Web Developer</span>!
           </h1>
-          <p class="text-base mb-8 max-w-[600px]">
-            <div class="mb-3">Тот самый толковый джуниор с прямыми руками, ясным умом и румяными щёчками, который обязательно нужен вашей команде для эффективной работы.</div>
-            <div class="mb-3">Я очень хочу расти и развиваться, обучаясь мастерству на практике и перенимая полезный опыт у по-настоящему крутых разработчиков, чтобы самому стать крутым разработчиком, способным делать прекрасные вещи.</div>
-            <div class="mb-8">Больше информации обо мне - ниже по сайту. А ещё, мой друг, ты можешь найти меня во <a
+          <p class="mb-8 max-w-[600px]">
+            <div class="mb-3 text-sm xl:text-base">Тот самый толковый джуниор с прямыми руками, ясным умом и румяными щёчками, который обязательно поможет вашей команде стать эффективнее и продуктивнее. Веселее будет уж точно, это 100%!</div>
+            <div class="mb-3 text-sm xl:text-base">Я очень хочу расти и развиваться, обучаясь мастерству на практике и перенимая драгоценный опыт у по-настоящему крутых разработчиков, чтобы самому стать крутым разработчиком, способным делать великолепные вещи.</div>
+            <div class="mb-8 text-sm xl:text-base">Больше информации обо мне - ниже по сайту. А ещё, мой друг, ты можешь найти меня во <a
               href="https://vk.com/dimaboronox"
               class="text-subprimary font-bold no-underline hover:underline underline-offset-2 decoration-2 decoration-subprimary"
               target="_blank"
             >Вконтакте</a>!</div>
           </p>
           <ul>
-            <li>
+            <li class="w-fit mx-auto lg:ml-0 lg:mr-auto">
               <x-button-link href="#portfolio" variant="primary" class="rounded-lg">
                 Мои проекты
               </x-button-link>
             </li>
           </ul>
-          <div class="clients pt-16">
+          <div class="clients pt-16 w-fit m-auto lg:ml-0 lg:mr-auto">
             <h6 class="font-normal text-sm flex items-center text-body-color dark:text-gray-300 mb-4">
-              Follow me на разных площадках
-              <span class="w-8 h-[1px] bg-body-color inline-block ml-2"></span>
+              <b>Follow me на разных площадках</b>
+              <span class="w-8 h-[1px] bg-body-color mx-3 hidden lg:inline-block"></span>
             </h6>
-            <x-social-icons></x-social-icons>
+            <x-social-icons class="w-fit m-auto lg:ml-0 lg:mr-auto"></x-social-icons>
           </div>
         </div>
       </div>
-      <div class="hidden lg:block lg:w-1/12 px-4"></div>
-      <div class="w-full lg:w-5/12 px-4">
-        <div class="lg:text-right lg:mx-auto">
+      <!-- <div class="hidden lg:block lg:w-1/12 px-4"></div> -->
+      <div class="w-full px-4 lg:w-4/12 lg:mr-4">
+        <div class="text-center lg:text-right lg:mx-auto">
           <div class="relative inline-block z-10 pt-11 lg:pt-0">
             <img
               src="{{ url('/img/me-hero.png') }}"

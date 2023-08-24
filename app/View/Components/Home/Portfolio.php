@@ -23,33 +23,33 @@ class Portfolio extends Component
     {
         $this->items = [
             [
-                'category'  => ['Vanilla PHP', 'Frontend', 'MySQL'],
-                'title'     => 'Full Stack bookstore Bookex',
-                'image'     => url('/img/bookex.jpg'),
+                'category'  => ['PHP', 'Frontend', 'MySQL'],
+                'title'     => 'Full Stack bookstore "Bookex"',
+                'image'     => url('/img/1-bookex.png'),
                 'github'    => 'https://github.com/Zeppgoespro/bookshop-bookex-pet-project'
             ],
             [
-                'category'  => ['Vanilla PHP', 'Frontend', 'MySQL'],
-                'title'     => 'Full Stack estate agency Hearthfire',
-                'image'     => url('/img/palace.jpg'),
+                'category'  => ['PHP', 'Frontend', 'MySQL'],
+                'title'     => 'Full Stack estate agency "Hearthfire"',
+                'image'     => url('/img/2-hearthfire.png'),
                 'github'    => 'https://github.com/Zeppgoespro/estate-agency-hearthfire-pet-project'
             ],
             [
-                'category'  => ['Vanilla PHP', 'PHPUnit', 'OOP'],
-                'title'     => 'PHP testing sample',
-                'image'     => url('/img/palace.jpg'),
+                'category'  => ['PHP', 'PHPUnit', 'OOP'],
+                'title'     => 'PHPUnit testing samples',
+                'image'     => url('/img/3-testing.png'),
                 'github'    => 'https://github.com/Zeppgoespro/pwgio-php-exercise-phpunit'
             ],
             [
-                'category'  => ['Vanilla PHP', 'MySQL', 'Course'],
-                'title'     => 'freeCodeCamp HTML CSS JS PHP MySQL course exercise',
-                'image'     => url('/img/palace.jpg'),
+                'category'  => ['PHP', 'MySQL', 'Course'],
+                'title'     => 'freeCodeCamp PHP/JS exercise',
+                'image'     => url('/img/4-wa4e.png'),
                 'github'    => 'https://github.com/Zeppgoespro/freecodecamp-web-applications-course'
             ],
             [
-                'category'  => ['Vanilla PHP', 'OOP', 'Course'],
-                'title'     => 'Full PHP backend course with almost everything needed to learn',
-                'image'     => url('/img/palace.jpg'),
+                'category'  => ['PHP', 'OOP', 'Course'],
+                'title'     => 'PHP OOP accounting table exercise',
+                'image'     => url('/img/5-oop.png'),
                 'github'    => 'https://github.com/Zeppgoespro/pwgio-php-education'
             ],
             [

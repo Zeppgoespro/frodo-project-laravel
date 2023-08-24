@@ -14,9 +14,15 @@
 		<div class="flex flex-wrap -mx-4">
 			<div class="w-full px-4">
 				<div class="text-center mx-auto mb-[60px] max-w-[510px]">
-					<h2 class="font-bold text-3xl sm:text-4xl md:text-[40px] text-dark dark:text-gray-300 mb-4">
+					<h2 class="font-bold text-3xl text-dark dark:text-gray-300 mb-4">
 						Мои проекты
 					</h2>
+					<p class="mb-4">
+						<a
+							href="https://github.com/Zeppgoespro"
+							class="text-base text-subprimary font-bold no-underline hover:underline underline-offset-2 decoration-2 decoration-subprimary"
+							target="_blank"
+						>Здесь мой GitHub!</a>
 					<p class="text-base text-body-color">
 						Пожалуйста, посмотри проекты, которые я сделал!
 					</p>

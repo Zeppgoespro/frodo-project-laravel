@@ -3,19 +3,19 @@
 		<div class="container">
 			<div class="flex flex-wrap -mx-4">
 				<div class="w-full px-4">
-					<div class="text-center mx-auto	mb-[60px] max-w-[510px]">
+					<div class="text-center mx-auto	mb-[60px] max-w-[600px]">
 						<h2 class="font-bold text-3xl text-dark dark:text-gray-300 mb-4">
 							Где я учился?
 						</h2>
-						<p class="text-base text-body-color mb-4">
+						<p class="mb-4">
 							<a
 								href=""
-								class="text-subprimary font-bold no-underline hover:underline underline-offset-2 decoration-2 decoration-subprimary"
+								class="text-base text-subprimary font-bold no-underline hover:underline underline-offset-2 decoration-2 decoration-subprimary"
 							>Здесь подробнее!</a>
 						</p>
 						<p class="text-base text-body-color">
-							Youtube, много youtube... Program With Gio, freeCodeCamp, Mozilla Developer Network etc. <br/>
-							Вот некоторые образцы моих источников.
+							Очень-очень много youtube... Program With Gio, The Codeholic, freeCodeCamp. Ещё Mozilla Developer Network etc. <br/>
+							Некоторые образцы моих источников представлены ниже.
 						</p>
 					</div>
 				</div>
@@ -36,7 +36,7 @@
 					target="_blank"
 					class="rounded-lg"
 				>
-					Подробнее о том, как я учился...
+					Больше информации
 				</x-button-link>
 			</div>
 		</div>

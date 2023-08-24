@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap);
 /*
 ! tailwindcss v3.3.2 | MIT License | https://tailwindcss.com
 *//*
@@ -717,6 +717,9 @@ input#checkboxLabelFive:checked ~ .box {
 .z-\[-1\] {
     z-index: -1
 }
+.m-auto {
+    margin: auto
+}
 .-mx-3 {
     margin-left: -0.75rem;
     margin-right: -0.75rem
@@ -724,6 +727,10 @@ input#checkboxLabelFive:checked ~ .box {
 .-mx-4 {
     margin-left: -1rem;
     margin-right: -1rem
+}
+.mx-3 {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem
 }
 .mx-7 {
     margin-left: 1.75rem;
@@ -812,9 +819,6 @@ input#checkboxLabelFive:checked ~ .box {
 }
 .mr-6 {
     margin-right: 1.5rem
-}
-.mt-10 {
-    margin-top: 2.5rem
 }
 .mt-2 {
     margin-top: 0.5rem
@@ -918,6 +922,10 @@ input#checkboxLabelFive:checked ~ .box {
 .w-auto {
     width: auto
 }
+.w-fit {
+    width: -moz-fit-content;
+    width: fit-content
+}
 .w-full {
     width: 100%
 }
@@ -999,6 +1007,9 @@ input#checkboxLabelFive:checked ~ .box {
 .justify-between {
     justify-content: space-between
 }
+.justify-around {
+    justify-content: space-around
+}
 .justify-items-center {
     justify-items: center
 }
@@ -1057,6 +1068,10 @@ input#checkboxLabelFive:checked ~ .box {
 .border-amber-500 {
     --tw-border-opacity: 1;
     border-color: rgb(245 158 11 / var(--tw-border-opacity))
+}
+.border-body-color {
+    --tw-border-opacity: 1;
+    border-color: rgb(99 115 129 / var(--tw-border-opacity))
 }
 .border-dark {
     --tw-border-opacity: 1;
@@ -1261,14 +1276,11 @@ input#checkboxLabelFive:checked ~ .box {
 .text-center {
     text-align: center
 }
+.text-2xl {
+    font-size: 1.875rem
+}
 .text-3xl {
     font-size: 2.25rem
-}
-.text-4xl {
-    font-size: 3rem
-}
-.text-\[32px\] {
-    font-size: 32px
 }
 .text-base {
     font-size: 1.125rem
@@ -1685,18 +1697,6 @@ input#checkboxLabelFive:checked ~ .box {
     .sm\:pt-0 {
         padding-top: 0px
     }
-    .sm\:text-4xl {
-        font-size: 3rem
-    }
-    .sm\:text-\[36px\] {
-        font-size: 36px
-    }
-    .sm\:text-\[38px\] {
-        font-size: 38px
-    }
-    .sm\:text-\[40px\] {
-        font-size: 40px
-    }
 }
 @media (min-width: 720px) {
     .md\:h-\[70px\] {
@@ -1722,9 +1722,6 @@ input#checkboxLabelFive:checked ~ .box {
         padding-top: 0.75rem;
         padding-bottom: 0.75rem
     }
-    .md\:text-\[40px\] {
-        font-size: 40px
-    }
 }
 @media (min-width: 960px) {
     .lg\:static {
@@ -1740,17 +1737,32 @@ input#checkboxLabelFive:checked ~ .box {
     .lg\:mb-0 {
         margin-bottom: 0px
     }
+    .lg\:ml-0 {
+        margin-left: 0px
+    }
+    .lg\:ml-4 {
+        margin-left: 1rem
+    }
     .lg\:ml-6 {
         margin-left: 1.5rem
     }
     .lg\:mr-3 {
         margin-right: 0.75rem
     }
+    .lg\:mr-4 {
+        margin-right: 1rem
+    }
+    .lg\:mr-auto {
+        margin-right: auto
+    }
     .lg\:mt-0 {
         margin-top: 0px
     }
     .lg\:block {
         display: block
+    }
+    .lg\:inline-block {
+        display: inline-block
     }
     .lg\:flex {
         display: flex
@@ -1767,11 +1779,14 @@ input#checkboxLabelFive:checked ~ .box {
     .lg\:w-1\/2 {
         width: 50%
     }
-    .lg\:w-5\/12 {
-        width: 41.666667%
+    .lg\:w-4\/12 {
+        width: 33.333333%
     }
     .lg\:w-6\/12 {
         width: 50%
+    }
+    .lg\:w-7\/12 {
+        width: 58.333333%
     }
     .lg\:w-\[64px\] {
         width: 64px
@@ -1825,11 +1840,8 @@ input#checkboxLabelFive:checked ~ .box {
     .lg\:text-right {
         text-align: right
     }
-    .lg\:text-\[34px\] {
-        font-size: 34px
-    }
-    .lg\:text-\[36px\] {
-        font-size: 36px
+    .lg\:text-3xl {
+        font-size: 2.25rem
     }
     .lg\:shadow-none {
         --tw-shadow: 0 0 #0000;
@@ -1866,11 +1878,11 @@ input#checkboxLabelFive:checked ~ .box {
         padding-left: 2.25rem;
         padding-right: 2.25rem
     }
-    .xl\:text-\[36px\] {
-        font-size: 36px
+    .xl\:text-3xl {
+        font-size: 2.25rem
     }
-    .xl\:text-\[40px\] {
-        font-size: 40px
+    .xl\:text-base {
+        font-size: 1.125rem
     }
     .xl\:text-xl {
         font-size: 1.5rem
@@ -1883,7 +1895,7 @@ input#checkboxLabelFive:checked ~ .box {
 }
 
 body {
-  font-family: "Roboto Mono", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 .snap {
