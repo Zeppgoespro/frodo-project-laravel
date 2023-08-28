@@ -12,7 +12,7 @@
           <span class="px-2 text-lg xl:text-xl font-bold text-subprimary dark:text-[#E5E7EB]">Zepp's Workshop</span>
         </a>
       </div>
-      <div class="flex px-4 justify-end items-center w-full">
+      <div class="flex px-4 justify-end items-center max-w-full">
         <div>
           <x-layout.navbar-hamburger @click="navbarOpen = !navbarOpen" x-bind:class="navbarOpen && 'navbarTogglerActive'">
           </x-layout.navbar-hamburger>

@@ -22,7 +22,7 @@ class Navbar extends Component
             ['label' => 'Мои проекты',  'href' => '#portfolio'],
             ['label' => 'Где учился',   'href' => '#education'],
             ['label' => 'Связь',        'href' => '#contact'],
-            ['label' => 'Full Story',   'href' => '/full-story']
+            ['label' => 'Вся история',   'href' => '/full-story']
         ];
     }
 
