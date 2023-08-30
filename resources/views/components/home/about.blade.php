@@ -43,21 +43,21 @@
             Про меня
           </h2>
           <p class="text-sm xl:text-base dark:text-gray-400 mb-5">
-            В 2010'ом я закончил учёбу на программиста в УПК (Екатеринбург), однако, затем много лет работал в интерьерной сфере - сначала продавцом, потом комплектовщиком объектов дизайнеров/архитекторов и светоинженером. Последние пару лет этого пути я работал уже на себя.
+            В 2010 году я окончил обучение на программиста в УПК (Екатеринбург), однако затем много лет работал в интерьерной сфере: сначала в качестве продавца, потом как комплектовщик объектов дизайнеров/архитекторов и светотехнического специалиста. В последние пару лет этого пути я работал уже на себя.
           </p>
           <p class="text-sm xl:text-base dark:text-gray-400 mb-5">
-            К концу 2021'го мои страсть и энтузиазм в этом направлении сошли на нет, и в начале 2022'го я принял решение заново учиться на программиста-разработчика, выбрав
-            <span class="text-amber-500 font-bold">BACKEND</span> как основное направление и
-            <span class="text-amber-500 font-bold">PHP</span> как первый язык. Конечно, без чуточки
-            <span class="text-amber-500 font-bold">JavaScript</span> тоже не обошлось.
+            К концу 2021 года мои страсть и энтузиазм к этому направлению иссякли, и в начале 2022 года я принял решение заново обучаться на программиста-разработчика, выбрав
+            <span class="text-amber-500 font-bold">BACKEND</span> в качестве основного направления и
+            <span class="text-amber-500 font-bold">PHP</span> в качестве первого языка. Конечно же, не обошлось и без чуточки
+            <span class="text-amber-500 font-bold">JavaScript</span>.
           </p>
           <p class="text-sm xl:text-base dark:text-gray-400 mb-8">
-            Активно учиться я начал с 6'го апреля 2022'го, учился-учился, в той или иной мере я освоил
-            <span class="text-amber-500 font-bold">HTML, CSS, PHP (OOP PHP), MySQL, JavaScript, Docker, Git, Linux (Ubuntu через WSL2), Laravel, немного AlpineJS и Tailwind CSS</span>.
-            Теперь ищу команду с классными ребятами, чтобы развиваться дальше.
+            Активно учиться я начал с 6 апреля 2022 года. Учился, учился, и, в той или иной мере, освоил
+            <span class="text-amber-500 font-bold">HTML, CSS, PHP (OOP PHP), MySQL, JavaScript, Docker, Git, Linux (Ubuntu через WSL2), Laravel, а также немного AlpineJS и Tailwind CSS</span>.
+            Сейчас ищу команду с классными ребятами, чтобы продолжать развиваться дальше.
           </p>
           <div class="w-fit m-auto lg:ml-0 lg:mr-auto">
-            <x-button-link href="https://vk.com/dimaboronox" variant="red" target="_blank">
+            <x-button-link href="/full-story" variant="red">
               Full story again
             </x-button-link>
           </div>

@@ -4,9 +4,11 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<title>Laravel</title>
+		<title>Zepp's Workshop</title>
 
 		<meta name="csrf-token" content="{{ csrf_token() }}">
+
+		<link rel="icon" href="{{ asset('img/gear-logo-light.png') }}" type="image/png">
 
 		<link href="{{ asset('/css/app.css') }}" rel="stylesheet">
 	</head>

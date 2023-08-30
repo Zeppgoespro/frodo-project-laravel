@@ -1,5 +1,4 @@
 <!-- ====== Call To Action section start -->
-
 <section>
 	<div class="bg-primary relative rounded overflow-hidden py-12 px-8 md:p-[70px] z-10">
 		<div class="container mx-auto">
@@ -79,5 +78,4 @@
 		</div>
 	</div>
 </section>
-
 <!-- ====== Call To Action section end -->

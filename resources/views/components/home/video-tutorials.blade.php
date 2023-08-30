@@ -1,4 +1,4 @@
-<!-- Cards section start -->
+<!-- ====== Cards section start -->
 	<section id="education" class="dark:bg-slate-800 pt-24 pb-16">
 		<div class="container">
 			<div class="flex flex-wrap -mx-4">
@@ -9,12 +9,12 @@
 						</h2>
 						<p class="mb-4">
 							<a
-								href=""
+								href="/full-story#education"
 								class="text-base text-subprimary font-bold no-underline hover:underline underline-offset-2 decoration-2 decoration-subprimary"
 							>Здесь подробнее!</a>
 						</p>
 						<p class="text-base text-body-color">
-							Очень-очень много youtube... Program With Gio, The Codeholic, freeCodeCamp. Ещё Mozilla Developer Network etc. <br/>
+							Очень много YouTube! Program With Gio, The Codeholic, freeCodeCamp. Ещё Mozilla Developer Network etc. <br/>
 							Некоторые образцы моих источников представлены ниже.
 						</p>
 					</div>
@@ -32,8 +32,7 @@
 			</div>
 			<div class="flex justify-center">
 				<x-button-link
-					href="https://youtube.com/ProgramWithGio"
-					target="_blank"
+					href="/full-story#education"
 					class="rounded-lg"
 				>
 					Больше информации
@@ -41,4 +40,4 @@
 			</div>
 		</div>
 	</section>
-<!-- Cards section end -->
+<!-- ====== Cards section end -->

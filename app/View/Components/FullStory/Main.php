@@ -6,7 +6,7 @@ namespace App\View\Components\FullStory;
 
 use Illuminate\View\Component;
 
-class FullStory extends Component
+class Main extends Component
 {
     /**
      * Create a new component instance.
@@ -25,6 +25,6 @@ class FullStory extends Component
      */
     public function render()
     {
-        return view('components.full-story.full-story');
+        return view('components.full-story.main');
     }
 }

@@ -5,7 +5,7 @@
   <div class="container">
     <div class="flex -mx-4 items-center justify-between relative">
       <ul class="block w-1/3 lg:flex lg:items-center">
-        <x-layout.navbar-item href="/" class="mr-6 xl:mr-12"><< На главную!</x-layout.navbar-item>
+        <x-layout.navbar-item href="/" class="mr-5 xl:mr-8"><< Назад!</x-layout.navbar-item>
       </ul>
       <div class="w-1/3 max-w-full">
         <a href="/" class="w-full flex items-center justify-center py-2">

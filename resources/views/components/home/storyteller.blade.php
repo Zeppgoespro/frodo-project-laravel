@@ -5,10 +5,9 @@
 		</h3>
 	</x-slot>
 	<x-button-link
-		href="https://roadmap.sh/backend"
+		href="/full-story"
 		variant="red"
 		class="mr-3 w-full mb-3 text-center lg:w-auto"
-		target="_blank"
 	>
 		Full story
 	</x-button-link>
