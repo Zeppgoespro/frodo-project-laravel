@@ -1,5 +1,5 @@
 <!-- ====== Life-story section start -->
-<section class="relative pt-[30px] lg:pt-[80px] pb-[80px] bg-white dark:bg-slate-800" id="story">
+<section class="relative pt-[30px] lg:pt-[80px] pb-[80px] dark:bg-slate-800" id="story">
   <div class="container">
     <div class="flex flex-wrap justify-around -mx-4">
       <div class="w-full px-4 lg:w-4/12 mb-12 lg:mr-4">

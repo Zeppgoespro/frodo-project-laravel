@@ -28,6 +28,7 @@
             </ul>
           </nav>
         </div>
+        <x-layout.theme-button class="mr-20 lg:mx-4 xl:mx-5"></x-layout.theme-button>
       </div>
     </div>
   </div>

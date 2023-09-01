@@ -15,7 +15,9 @@
         </a>
       </div>
       <div class="w-1/3 flex justify-end">
-        <div class="mx-6 xl:mx-12">X</div>
+        <div class="mx-6 xl:mx-12">
+          <x-layout.theme-button></x-layout.theme-button>
+        </div>
       </div>
     </div>
   </div>
