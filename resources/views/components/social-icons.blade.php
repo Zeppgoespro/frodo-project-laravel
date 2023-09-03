@@ -34,7 +34,7 @@
 		</svg>
 	</a>
 	<a
-		href="javascript:void(0)"
+		href="https://www.linkedin.com/in/dimaboronox"
 		target="_blank"
 		class="
 			w-10

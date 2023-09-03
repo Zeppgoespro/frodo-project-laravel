@@ -133,7 +133,7 @@
 				</div>
 			</div>
 			<div class="w-full lg:w-1/2 xl:w-5/12 px-4">
-				<div class="bg-white dark:bg-slate-900 relative rounded-lg p-8 sm:p-12 shadow-lg">
+				<div class="bg-white dark:bg-slate-900 border-2 border-body-color relative rounded-lg p-8 sm:p-12 shadow-lg">
 					<form
 						action="/contact/submit"
 						method="POST"
@@ -171,7 +171,7 @@
 											email: '',
 											message: '',
 										};
-										this.successMessage = 'Спасибо за сообщение! Скоро отвечу.';
+										this.successMessage = 'Спасибо за сообщение! Скоро отвечу!';
 									})
 									.catch(async (response) => {
 										const res = await response.json();

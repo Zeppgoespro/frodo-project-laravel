@@ -3,6 +3,8 @@
 		$attributes->class(
 			['
 				w-full
+				border
+				border-body-color
 				rounded
 				py-3
 				px-[14px]

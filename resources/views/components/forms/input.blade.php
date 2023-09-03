@@ -4,6 +4,8 @@
 			['
 				w-full
 				rounded
+				border
+				border-body-color
 				py-3
 				px-[14px]
 				text-body-color

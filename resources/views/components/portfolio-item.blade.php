@@ -5,7 +5,7 @@
 >
 	<div class="relative mb-12">
 		<a href="{{ $github }}" target="_blank">
-			<div class="rounded-lg overflow-hidden ease-in duration-100 hover:scale-105">
+			<div class="rounded-lg overflow-hidden border-2 border-body-color ease-in duration-100 hover:scale-105">
 				<img
 					src="{{ $image }}"
 					alt="Some portfolio thing"
@@ -14,7 +14,7 @@
 			</div>
 		</a>
 		<div
-			class="flex flex-col justify-between text-center bg-white dark:bg-slate-800 relative z-10 py-9 px-3 rounded-lg shadow-lg mx-7 -mt-4 h-[260px]"
+			class="flex flex-col justify-between text-center border border-body-color bg-white dark:bg-slate-800 relative z-10 py-9 px-3 rounded-lg shadow-lg mx-7 -mt-4 h-[260px]"
 		>
 			<span class="text-sm text-primary font-semibold block mb-2">
 				{{ implode(", ", $categories) }}
@@ -22,7 +22,7 @@
 			<h3 class="font-bold text-lg text-dark dark:text-gray-300 mb-4">
 				{{ $title }}
 			</h3>
-			<x-button-link :href="$github" variant="outline-primary">Подробнее</x-button-link>
+			<x-button-link :href="$github" variant="outline-primary" target="_blank">Подробнее</x-button-link>
 		</div>
 	</div>
 </div>

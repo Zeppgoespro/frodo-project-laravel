@@ -50,12 +50,12 @@ class Portfolio extends Component
                 'category'  => ['PHP', 'OOP', 'Course'],
                 'title'     => 'PHP OOP accounting table exercise',
                 'image'     => url('/img/5-oop.png'),
-                'github'    => 'https://github.com/Zeppgoespro/pwgio-php-education'
+                'github'    => 'https://github.com/Zeppgoespro/pwgio-php-exercise-oop'
             ],
             [
                 'category'  => ['Laravel', 'AlpineJS', 'OOP'],
                 'title'     => '$this->website',
-                'image'     => url('/img/palace.jpg'),
+                'image'     => url('/img/6-workshop.png'),
                 'github'    => 'https://github.com/Zeppgoespro/frodo-project-laravel'
             ]
         ];

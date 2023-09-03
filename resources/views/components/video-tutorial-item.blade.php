@@ -1,5 +1,5 @@
 <div class="w-full md:w-1/2 xl:w-1/3 px-4">
-	<div class="bg-white rounded-lg mb-10">
+	<div class="bg-white border border-body-color rounded-lg mb-10">
 		<!-- ====== Video section start -->
 			<section
 				x-data="
@@ -35,7 +35,7 @@
 										<svg
 											width="23"
 											height="27"
-											viewBox="0 0 23 27"
+											viewBox="-1 0 23 27"
 											class="fill-current"
 										>
 											<path
@@ -66,7 +66,7 @@
 						</div>
 						<button
 							@click="videoOpen = false"
-							class="absolute top-0 right-0 w-20 h-20 flex items-center justify-center cursor-pointer text-body-color hover:bg-black"
+							class="absolute rounded-full top-2 right-2 w-20 h-20 flex items-center justify-center cursor-pointer bg-black text-[#ff0000ff] hover:bg-body-color"
 						>
 							<svg viewBox="0 0 16 15" class="fill-current w-8 h-8">
 								<path
@@ -79,7 +79,7 @@
 			</section>
 		<!-- ====== Video section end -->
 		<!-- Video content start -->
-			<div class="p-6 xl:p-7 2xl:p-9 h-[320px] overflow-y-auto text-center">
+			<div class="mb-1 p-6 xl:p-7 2xl:p-9 h-[320px] overflow-y-auto text-center">
 				<h3>
 					<a
 						href="https://youtu.be/{{ $videoId }}"

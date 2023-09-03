@@ -32,7 +32,7 @@ class ContactMail extends Mailable
      */
     public function build()
     {
-        return $this->subject('Contact mail from Bibins')->replyTo($this->email)->view('email.contact');
+        return $this->subject('Contact mail from ZW')->replyTo($this->email)->view('email.contact');
     }
 
     /**
@@ -43,7 +43,7 @@ class ContactMail extends Mailable
     public function envelope()
     {
         return new Envelope(
-            subject: 'Contact Mail',
+            subject: 'Contact mail from ZW',
         );
     }
 
