@@ -394,7 +394,7 @@ video {
 }
 
 body {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Rubik', sans-serif;
 }
 
 .navbarTogglerActive > span:nth-child(1) {
@@ -696,8 +696,8 @@ input#checkboxLabelFive:checked ~ .box {
 .right-10 {
     right: 2.5rem
 }
-.right-3 {
-    right: 0.75rem
+.right-2 {
+    right: 0.5rem
 }
 .right-4 {
     right: 1rem
@@ -708,8 +708,8 @@ input#checkboxLabelFive:checked ~ .box {
 .top-1\/2 {
     top: 50%
 }
-.top-3 {
-    top: 0.75rem
+.top-2 {
+    top: 0.5rem
 }
 .top-5 {
     top: 1.25rem
