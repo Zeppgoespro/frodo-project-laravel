@@ -95,7 +95,7 @@
               </span>
             </div>
             <ul>
-              <li class="w-fit mx-auto lg:ml-0 lg:mr-auto">
+              <li class="w-fit mx-auto">
                 <x-button-link href="/" variant="primary" class="rounded-lg">
                   На главную!
                 </x-button-link>
