@@ -40,13 +40,13 @@ class VideoTutorials extends Component
                 'description' => 'In this video, we implement a basic PSR-11 DI container. You will learn how DI containers work behind the scenes, what is autowiring & how to implement reflection API based autowiring.'
             ],
             [
-                'videoId' => 'G3e-cpL7ofc',
-                'title' => 'HTML & CSS Full Course - Beginner to Pro',
-                'description' => 'In this full course, we learn how to build websites with HTML and CSS, and get started as a software engineer.'
+                'videoId' => '-6DWwR_R4Xk',
+                'title' => 'ООП на простых примерах. Объектно-ориентированное программирование',
+                'description' => 'ООП простым языком. Основные концепции объектно ориентированного программирования. Объекты, классы, инкапсуляция, полиморфизм, наследование, композиция, агрегация, интерфейсы, паттерны, solid, dependency injection.'
             ],
             [
                 'videoId' => 'Wiu5bEOxkCQ',
-                'title' => 'DOCKER FULL COURSE [5 hours]',
+                'title' => '🔴 DOCKER FULL COURSE [5 hours]',
                 'description' => 'Complete Docker Course - learn all core Docker features including Dockerfiles and Docker Compose.'
             ]
         ];

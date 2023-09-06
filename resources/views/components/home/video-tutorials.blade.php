@@ -35,7 +35,7 @@
 					href="/full-story#education"
 					class="rounded-lg"
 				>
-					Больше информации
+					Подробнее
 				</x-button-link>
 			</div>
 		</div>

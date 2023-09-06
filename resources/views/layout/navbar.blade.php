@@ -5,7 +5,7 @@
 >
   <div class="container">
     <div class="flex -mx-4 items-center justify-between relative">
-      <div class="pr-4 w-80 max-w-full">
+      <div class="ml-1 xs:ml-0 pr-4 w-80 max-w-full">
         <a href="/" class="w-full flex items-center py-2">
           <img src="{{ url('/img/gear-logo-light.png') }}" alt="Logo" class="w-[48px] lg:w-[64px] inline-block dark:hidden">
           <img src="{{ url('/img/gear-logo-dark.png') }}" alt="Logo" class="w-[48px] lg:w-[64px] hidden dark:inline-block">

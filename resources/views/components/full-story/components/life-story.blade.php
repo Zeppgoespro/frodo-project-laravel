@@ -10,7 +10,7 @@
               alt="Big picture of me"
               class="max-w-full rounded-2xl lg:mx-auto"
             />
-            <span class="absolute -right-8 -bottom-8 z-[-1]">
+            <span class="absolute -left-8 -bottom-8 z-[-1]">
               <svg
                 width="93"
                 height="93"

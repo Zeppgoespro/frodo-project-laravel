@@ -19,4 +19,4 @@ Route::get('/', function () {
 
 Route::post('/contact/submit', [\App\Http\Controllers\ContactController::class, 'submit']);
 
-Route::get('full-story', [App\View\Components\FullStory\Main::class, 'render']);
+Route::get('/full-story', [\App\View\Components\FullStory\Main::class, 'render']);

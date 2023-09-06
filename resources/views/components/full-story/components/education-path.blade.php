@@ -1,5 +1,5 @@
 <!-- ====== Education-path section start -->
-<section class="relative pt-[60px] lg:pt-[80px] pb-[110px] bg-white dark:bg-gray-900" id="education">
+<section class="relative pt-[60px] lg:pt-[80px] pb-[80px] bg-white dark:bg-gray-900" id="education">
   <div class="container">
     <div class="flex flex-wrap justify-around -mx-4">
       <div class="w-full px-4 lg:w-7/12 lg:ml-4">

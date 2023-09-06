@@ -45,7 +45,7 @@
 							<h4 class="font-bold text-dark dark:text-gray-200 text-xl mb-1">
 								Email:
 							</h4>
-							<p class="text-base text-body-color dark:text-gray-300">
+							<p class="text-sm xs:text-base text-body-color dark:text-gray-300">
 								zeppgoesblack@gmail.com
 							</p>
 						</div>
@@ -215,7 +215,7 @@
 						</div>
 						<div>
 							<x-button class="w-full">
-								Отправить сообщение
+								Отправить <span class="hidden xs:inline">сообщение</span>
 							</x-button>
 						</div>
 					</form>
