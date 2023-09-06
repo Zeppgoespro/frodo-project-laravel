@@ -32,7 +32,15 @@
               Теперь я очень хочу развиваться дальше, углубляясь в то, с чем уже познакомился, и осваивая новые технологии! Думаю, самое время закончить курс "Learn PHP the Right Way" и полностью переключиться на Laravel.
             </div>
             <div class="mb-8 text-sm xl:text-base">
-              <span class="font-bold rounded-md text-amber-500">Про мой жизненный путь ты можешь прочитать выше, а можешь вернуться на главную!</span>
+              <span class="font-bold rounded-md text-amber-500">
+                Про мой жизненный путь ты
+                <a
+                  href="#story"
+                  class="bg-sky-200 hover:bg-amber-500 dark:bg-sky-700 rounded-md hover:text-white"
+                >
+                можешь прочитать выше</a>,
+                а можешь вернуться на главную!
+              </span>
             </div>
             <ul>
               <li class="w-fit mx-auto lg:ml-0 lg:mr-auto">
