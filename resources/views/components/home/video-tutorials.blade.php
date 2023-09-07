@@ -31,12 +31,15 @@
 				@endforeach
 			</div>
 			<div class="flex justify-center">
-				<x-button-link
-					href="/full-story#education"
-					class="rounded-lg"
-				>
-					Подробнее
-				</x-button-link>
+				<ul>
+					<li class="w-fit mx-auto">
+						<x-button-link
+							href="/full-story#education"
+							class="rounded-lg"
+							variant="primary"
+						>Подробнее</x-button-link>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</section>
